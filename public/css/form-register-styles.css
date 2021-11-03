@@ -11,6 +11,7 @@
 .high-box-input input {
   width: 250px;
   height: 30px;
+  padding: 5px;
 }
 .control-de-formularios {
   width: 90%;
