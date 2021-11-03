@@ -96,9 +96,7 @@ nav.navbar ul li {
 .hamburguer-button {
   background-color: #1259c3;
   color: white;
-  /* para darle tamaño y que este a la mitad lo tengo que convertir en un elemento de block --> display: block */
   display: block;
-  /* queda con un ancho que ocupa toda la pantalla , para eso usamos max-width: */
   max-width: 50px;
   text-align: center;
   padding: 15px 0px;
