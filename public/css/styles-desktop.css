@@ -1,0 +1,62 @@
+@media (min-width: 1024px) {
+  /*          //////          header       ////// */
+
+  .navbar {
+    margin-top: 25px;
+  }
+  .left-navbar {
+    padding-right: 10px;
+  }
+  .right-navbar {
+    padding-left: 10px;
+  }
+  .right-navbar li {
+    margin-left: 30px;
+  }
+  /*
+          //////          main         //////
+  
+*/
+  .wrapped {
+    width: 25%;
+    padding: 10px;
+  }
+  .caja-general-del-articulo {
+    box-shadow: none;
+  }
+  .sefundo-titulo {
+    display: none;
+  }
+  .wrapped:hover .sefundo-titulo {
+    display: flex;
+  }
+  .wrapped .camion-articulos {
+    transition: transform 0.5s;
+  }
+  .wrapped:hover .camion-articulos {
+    transform: rotate(-90deg);
+  }
+  .font-navbar,
+  .font-cuotas,
+  .footer {
+    font-size: 14.5px;
+  }
+  .sections-footer {
+    display: flex;
+  }
+  .card,
+  .shipping,
+  .security {
+    padding: 10px;
+  }
+  .sections-footer i:hover {
+    color: #0022aa;
+  }
+}
+@media (min-width: 1400px) {
+  .font-navbar,
+  .font-cuotas,
+  .footer {
+    font-size: 16px;
+  }
+}

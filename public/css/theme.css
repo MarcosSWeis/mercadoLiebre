@@ -1,0 +1,51 @@
+header,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+.bg-yellow {
+  background-color: #eac926;
+}
+
+.bg-light-grey {
+  background-color: #ebebeb;
+}
+.bg-dark-grey {
+  background-color: #ebebeb;
+}
+.font-small {
+  font-size: 12px;
+}
+.font-small section {
+  color: gray;
+}
+.font-small h2 {
+  color: rgb(75, 75, 75);
+}
+.font-titles {
+  font-size: 24px;
+}
+.font-precio {
+  font-size: 18px;
+}
+.font-descuentos {
+  font-size: 16px;
+  color: #39b54a;
+}
+.font-descripciones {
+  font-size: 16px;
+}
+
+.iconos-footer {
+  color: #1259c3;
+  font-size: 2em;
+}
+.copyright {
+  font-size: 12px;
+  text-align: left;
+}
+
+.color-seg-titulo {
+  color: gray;
+}

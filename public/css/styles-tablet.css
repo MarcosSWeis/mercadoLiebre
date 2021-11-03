@@ -1,0 +1,91 @@
+@media (min-width: 480px) {
+  .font-navbar,
+  .font-cuotas {
+    font-size: 9.5px;
+  }
+  .top-nav {
+    display: flex;
+    margin: auto;
+  }
+  .logo,
+  .search-bar,
+  .comprar-cuotas {
+    width: 33.3%;
+    margin: auto;
+  }
+  .search-bar {
+    justify-content: end;
+  }
+  .navbar {
+    display: flex;
+    margin-top: 5px;
+  }
+  .navbar ul {
+    display: flex;
+    width: 50%;
+  }
+
+  .left-navbar {
+    justify-content: space-evenly;
+    padding-right: 10px;
+  }
+  .right-navbar {
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .right-navbar li {
+    margin-left: 5px;
+  }
+  .left-navbar li {
+    margin-right: 5px;
+  }
+  .right-navbar {
+    justify-content: end;
+    width: 33%;
+  }
+  .hamburguer-button {
+    display: none;
+  }
+  .wrapped {
+    width: 50%;
+    padding: 10px;
+  }
+  .articulo {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .flex-descuentos {
+    text-align: start;
+    padding-left: 25px;
+  }
+  .art-tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .caja-general-del-articulo {
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+
+@media (min-width: 600px) {
+  .font-navbar,
+  .font-cuotas {
+    font-size: 11.5px;
+  }
+
+  .right-navbar li {
+    margin-left: 10px;
+  }
+  .left-navbar li {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 720px) {
+  .font-navbar,
+  .font-cuotas,
+  .footer {
+    font-size: 12.5px;
+  }
+}

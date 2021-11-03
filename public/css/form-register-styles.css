@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form-register {
+  background-color: white;
+  width: 100%;
+}
+.high-box-input input {
+  width: 250px;
+  height: 30px;
+}
+.control-de-formularios {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(230, 230, 230);
+}
+
+.div-form-register {
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.div-form-register input {
+  border: black;
+  border-radius: 5px;
+}
+.div-form-register:hover input {
+  background-color: #1259c362;
+  color: white;
+}
+.div-form-register h3 {
+  margin-bottom: 10px;
+  color: #000000bc;
+}
+
+.divs-checbox-register {
+  margin-bottom: 15px;
+}
+.label-screen-reader {
+  display: none;
+}
+.date-regiter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.date-regiter label {
+  width: 90%;
+  margin-bottom: 5px;
+}
+.com-ven-register {
+  display: block;
+}
+.password-register label,
+.password-register input {
+  display: block;
+}
+
+.button-register {
+  margin-left: 10%;
+  display: flex;
+}
+.button-register .button-send {
+  margin-right: 130px;
+}
+.button-register button {
+  margin-right: 100px;
+  background-color: #1259c3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+.button-register button:hover {
+  background-color: #0022aa;
+}

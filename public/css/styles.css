@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*
+
+            /////////    header    ////////
+
+*/
+.header {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+body .top-nav {
+  display: flex;
+  margin: auto;
+}
+
+.logo,
+.search-bar {
+  width: 50%;
+  margin: auto;
+}
+
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+
+  margin: auto;
+}
+.search-bar {
+  display: flex;
+
+  height: 40px;
+  margin: auto;
+}
+.search-bar input {
+  outline: none;
+  border: 0;
+}
+.search-bar label {
+  display: none;
+}
+
+.searchbutton {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  width: 40px;
+  border: none;
+}
+.input-search {
+  width: 80%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+  border: none;
+}
+.font-cuotas {
+  font-size: 12px;
+  color: black;
+}
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+nav.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.comprar-cuotas {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.comprar-cuotas a {
+  text-decoration: none;
+  color: black;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.hamburguer-button {
+  background-color: #1259c3;
+  color: white;
+  /* para darle tamaño y que este a la mitad lo tengo que convertir en un elemento de block --> display: block */
+  display: block;
+  /* queda con un ancho que ocupa toda la pantalla , para eso usamos max-width: */
+  max-width: 50px;
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 10px;
+  margin: auto;
+}
+.hamburguer-button i {
+  color: white;
+}
+/*
+
+                /////////    main     ////////
+
+*/
+.main {
+  width: 90%;
+  margin: auto;
+}
+main section article img {
+  width: 100%;
+}
+
+.article {
+  background-color: white;
+  margin-bottom: 10px;
+}
+main section article div i {
+  display: block;
+  padding: 5px;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border: #39b54a solid 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  color: #39b54a;
+  top: -15px;
+}
+.caja-general-del-articulo {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+}
+.flex-precio {
+  width: 30%;
+  align-self: flex-end;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/*
+
+            /////////    footer     ////////
+
+*/
+.footer {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.flex-descuentos {
+  width: 70%;
+  margin-bottom: 10px;
+  text-align: left;
+  align-self: flex-end;
+}
+.footer {
+  padding: 20px 30px;
+}
+.footer section {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 0px) {
+  .navbar {
+    display: none;
+  }
+}
