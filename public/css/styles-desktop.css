@@ -24,6 +24,9 @@
   .caja-general-del-articulo {
     box-shadow: none;
   }
+  .article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
   .sefundo-titulo {
     display: none;
   }
@@ -33,6 +36,7 @@
   .wrapped .camion-articulos {
     transition: transform 0.5s;
   }
+
   .wrapped:hover .camion-articulos {
     transform: rotate(-90deg);
   }

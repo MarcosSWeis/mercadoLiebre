@@ -51,10 +51,7 @@
     width: 50%;
     padding: 10px;
   }
-  .articulo {
-    width: 100%;
-    box-sizing: border-box;
-  }
+
   .flex-descuentos {
     text-align: start;
     padding-left: 25px;
