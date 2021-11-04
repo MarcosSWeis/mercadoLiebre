@@ -26,6 +26,7 @@
 }
 
 .div-form-register {
+  width: 250px;
   margin-bottom: 20px;
   margin-left: 10%;
 }
@@ -66,6 +67,7 @@
 }
 
 .button-register {
+  width: 250px;
   margin-left: 10%;
   display: flex;
 }
@@ -73,7 +75,6 @@
   margin-right: 130px;
 }
 .button-register button {
-  margin-right: 100px;
   background-color: #1259c3;
   color: white;
   border: none;
@@ -82,4 +83,28 @@
 }
 .button-register button:hover {
   background-color: #0022aa;
+}
+@media (min-width: 1024px) {
+  .div-form-register {
+    width: 350px;
+  }
+  .high-box-input input {
+    transition-property: width;
+    transition-duration: 2s;
+  }
+  .high-box-input input {
+    width: 350px;
+  }
+
+  .button-register {
+    width: 350px;
+  }
+
+  .button-delete {
+    transition-property: margin-left;
+    transition-duration: 2s;
+  }
+  .button-delete {
+    margin-left: 100px;
+  }
 }

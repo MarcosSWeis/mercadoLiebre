@@ -54,10 +54,17 @@
     color: #0022aa;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1280px) {
   .font-navbar,
   .font-cuotas,
   .footer {
     font-size: 16px;
+  }
+  .logo,
+  .comprar-cuotas {
+    width: 20%;
+  }
+  .search-bar {
+    width: 60%;
   }
 }
