@@ -11,6 +11,9 @@
 .envoltorio {
   padding: 10px;
 }
+.high-box-input {
+  width: 250px;
+}
 .high-box-input input {
   width: 250px;
   height: 30px;
@@ -60,6 +63,9 @@
 }
 .com-ven-register {
   display: block;
+}
+.input-img-register {
+  width: 100%;
 }
 .password-register label,
 .password-register input {
