@@ -1,7 +1,7 @@
 @media (min-width: 480px) {
   .font-navbar,
   .font-cuotas {
-    font-size: 9.5px;
+    font-size: 10px;
   }
 
   .top-nav {
@@ -79,7 +79,7 @@
 @media (min-width: 600px) {
   .font-navbar,
   .font-cuotas {
-    font-size: 11.5px;
+    font-size: 12px;
   }
 
   .right-navbar li {
@@ -91,12 +91,7 @@
   }
 }
 @media (min-width: 720px) {
-  .font-navbar,
-  .font-cuotas,
-  .footer {
-    font-size: 12.5px;
-  }
   .right-navbar li {
-    margin-left: 10px;
+    margin-left: 15px;
   }
 }
